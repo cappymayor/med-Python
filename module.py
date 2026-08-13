@@ -21,11 +21,6 @@ def welcome_message(name:"str",country:"str"):
 print(welcome_message("John", "USA"))
 
 
-def largest_number(*numbers):
-    return max(numbers)
-
-print(largest_number(12,34,56,7,6,79,80,20,16,12,30,45,488,100,200,300,400,500,600,700,800,900,1000))
-
 def person_voting(person_age:"int"):
     if person_age >= 18:
         return "You are eligible to vote."
